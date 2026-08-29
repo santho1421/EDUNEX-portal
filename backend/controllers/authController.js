@@ -280,7 +280,7 @@ exports.registerCollege = async (req, res) => {
       website: website || '',
       city: city || '',
       state: state || '',
-      type: type || 'private',
+      collegeType: type || 'private',
       affiliation: affiliation || '',
       status: 'pending',
       createdAt: serverTimestamp(),
